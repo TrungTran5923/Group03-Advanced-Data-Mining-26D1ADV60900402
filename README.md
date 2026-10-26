@@ -11,7 +11,7 @@ Khai phá luật kết hợp và ứng dụng vào bài toán phân lớp khả 
 
 | Thư mục / file | Nội dung |
 |---|---|
-| `data/` | Đặt 7 file CSV của bộ dữ liệu vào đây (không đưa lên GitHub, xem `data/README.txt`) |
+| `data/` | 7 file dữ liệu dùng trong đồ án; `transaction_data.csv` được nén thành `.csv.gz` vì vượt giới hạn 100 MB của GitHub (xem `data/README.txt`) |
 | `notebooks/01_eda.ipynb` | Bước 1 – Phân tích thăm dò dữ liệu |
 | `notebooks/02_preprocessing.ipynb` | Bước 1 – Làm sạch, bảng giỏ hàng, Bộ dữ liệu 1, xếp hạng và lọc thuộc tính, chia train/test (`split.csv`) |
 | `notebooks/03_data_warehouse.ipynb` | Bước 2 – Kho dữ liệu SQLite (fact constellation), kiểm tra chất lượng, 2 khối OLAP, các phép OLAP |
@@ -22,7 +22,6 @@ Khai phá luật kết hợp và ứng dụng vào bài toán phân lớp khả 
 | `outputs/` | Bảng kết quả; `outputs/dw/` là bảng kết quả của kho dữ liệu |
 
 ## Cách chạy
-0. Tải bộ dữ liệu The Complete Journey (https://www.dunnhumby.com/source-files/ hoặc bản trên Kaggle) và chép 7 file CSV vào thư mục `data/`.
 1. `pip install -r requirements.txt` (trên Colab chỉ cần `!pip install mlxtend`).
 2. Chạy lần lượt `01` → `02` → `03` → `04` → `05` (Restart & Run All). Notebook 03 cần khoảng 1–2 phút và tạo file SQLite khoảng 340 MB (`outputs/dunnhumby_dw.sqlite`, hoặc `/content/` khi chạy trên Colab).
 3. Trên Google Colab: tải cả thư mục dự án lên `My Drive` và đặt tên `DM_Nhom3_Final` (hoặc sửa đường dẫn trong ô đầu tiên của mỗi notebook). Ô đầu tiên sẽ mount Drive và chuyển vào thư mục `notebooks`.
