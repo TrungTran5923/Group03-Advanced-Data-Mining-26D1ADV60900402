@@ -11,7 +11,7 @@ Khai phá luật kết hợp và ứng dụng vào bài toán phân lớp khả 
 
 | Thư mục / file | Nội dung |
 |---|---|
-| `data/` | 7 file dữ liệu dùng trong đồ án; `transaction_data.csv` được nén thành `.csv.gz` vì vượt giới hạn 100 MB của GitHub (xem `data/README.txt`) |
+| `data/` | Đủ 8 file của bộ dữ liệu; `transaction_data.csv` và `causal_data.csv` được nén thành `.csv.gz` vì vượt giới hạn 100 MB của GitHub (xem `data/README.txt`). Đồ án dùng 7 file, không dùng `causal_data` |
 | `notebooks/01_eda.ipynb` | Bước 1 – Phân tích thăm dò dữ liệu |
 | `notebooks/02_preprocessing.ipynb` | Bước 1 – Làm sạch, bảng giỏ hàng, Bộ dữ liệu 1, xếp hạng và lọc thuộc tính, chia train/test (`split.csv`) |
 | `notebooks/03_data_warehouse.ipynb` | Bước 2 – Kho dữ liệu SQLite (fact constellation), kiểm tra chất lượng, 2 khối OLAP, các phép OLAP |
