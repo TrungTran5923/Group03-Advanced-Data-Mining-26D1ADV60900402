@@ -1,0 +1,17 @@
+cube,cuboid,n_dims,n_cells
+Sales cube,week_block x department x income_group,3,592
+Sales cube,week_block x department,2,169
+Sales cube,week_block x income_group,2,32
+Sales cube,department x income_group,2,95
+Sales cube,week_block,1,8
+Sales cube,department,1,29
+Sales cube,income_group,1,4
+Sales cube,(apex) ALL,0,1
+Campaign cube,campaign_type x age_group x income_group,3,56
+Campaign cube,campaign_type x age_group,2,21
+Campaign cube,campaign_type x income_group,2,12
+Campaign cube,age_group x income_group,2,19
+Campaign cube,campaign_type,1,3
+Campaign cube,age_group,1,7
+Campaign cube,income_group,1,4
+Campaign cube,(apex) ALL,0,1

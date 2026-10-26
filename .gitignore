@@ -1,0 +1,9 @@
+# Dữ liệu gốc Dunnhumby (file lớn, tải riêng)
+data/*.csv
+# Kho dữ liệu SQLite sinh ra khi chạy notebook 03 (~340 MB)
+*.sqlite
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store

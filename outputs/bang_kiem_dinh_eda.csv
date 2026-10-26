@@ -1,0 +1,4 @@
+Kiểm định,So sánh,Thống kê,p-value
+Kruskal–Wallis,Chi tiêu tuần ~ nhóm thu nhập,45.17476420360845,8.494261808505543e-10
+Kruskal–Wallis,Chi tiêu tuần ~ quy mô hộ,12.8618193058619,0.01197108198669933
+Mann–Whitney U,Chi tiêu tuần: hộ có vs không có nhân khẩu học,1156033.0,1.9504485543972009e-175

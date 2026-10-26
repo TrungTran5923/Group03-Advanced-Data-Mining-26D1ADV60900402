@@ -1,0 +1,6 @@
+Bước,Số dòng,Số giỏ,Số hộ,Ghi chú
+0. Dữ liệu gốc (transaction_data),2595732,276484.0,2500,
+1a. Bỏ SALES_VALUE ≤ 0 hoặc QUANTITY = 0,2576815,275539.0,2500,loại 18.917 dòng
+1d. Bỏ department/commodity không phải hàng hóa,2543426,250942.0,2500,loại 33.389 dòng
+2. Bảng giỏ hàng (bỏ trùng sub-commodity trong giỏ),2157526,250942.0,2500,
+3. Bộ dữ liệu 1 (cấp hộ),1584,,1584,24 thuộc tính ứng viên -> giữ 16; lớp dương 27.4%

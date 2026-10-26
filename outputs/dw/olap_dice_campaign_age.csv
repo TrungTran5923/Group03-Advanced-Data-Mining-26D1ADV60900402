@@ -1,0 +1,5 @@
+campaign_type,age_group,income_group,n_targeted,n_redeemed,n_redemptions,spend_in_window,spend_pre90,n_households,redemption_rate
+TypeA,35-44,ALL,546,117,355,261301.94,476094.01,183,0.2143
+TypeA,45-54,ALL,771,197,581,352223.58,604836.5,260,0.2555
+TypeB,35-44,ALL,464,43,97,217341.94,537312.2,137,0.0927
+TypeB,45-54,ALL,565,58,113,251076.47,616573.99,211,0.1027

@@ -1,0 +1,9 @@
+Chỉ tiêu,Vừa tính,Tham chiếu,Kết quả
+Số dòng fact_sales,2595732,2595732,OK
+Số dòng đủ điều kiện phân tích,2543426,2543426,OK
+Số giỏ đủ điều kiện,250942,250942,OK
+Tổng doanh số đủ điều kiện (USD),7372071,7372071,OK
+Số lượt đổi coupon,2318,2318,OK
+Số cặp hộ-chiến dịch,7208,7208,OK
+Số cặp hộ-chiến dịch có đổi coupon,889,889,OK
+Số dòng dim_date,719,719,OK

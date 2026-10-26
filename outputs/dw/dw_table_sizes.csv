@@ -1,0 +1,11 @@
+table,n_rows,n_cols
+dim_date,719,5
+dim_product,92353,9
+dim_household,2500,10
+dim_store,582,3
+dim_campaign,30,6
+dim_coupon,1135,3
+bridge_coupon_product,119384,3
+fact_sales,2595732,21
+fact_coupon_redemption,2318,6
+fact_campaign_response,7208,13

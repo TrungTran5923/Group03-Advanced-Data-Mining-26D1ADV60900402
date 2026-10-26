@@ -1,0 +1,15 @@
+Ràng buộc,Số dòng mồ côi,Đạt
+fact_sales.date_key -> dim_date,0,True
+fact_sales.household_key -> dim_household,0,True
+fact_sales.product_id -> dim_product,0,True
+fact_sales.store_id -> dim_store,0,True
+fact_coupon_redemption.date_key -> dim_date,0,True
+fact_coupon_redemption.household_key -> dim_household,0,True
+fact_coupon_redemption.coupon_upc -> dim_coupon,0,True
+fact_coupon_redemption.campaign_key -> dim_campaign,0,True
+fact_campaign_response.household_key -> dim_household,0,True
+fact_campaign_response.campaign_key -> dim_campaign,0,True
+bridge_coupon_product.coupon_upc -> dim_coupon,0,True
+bridge_coupon_product.product_id -> dim_product,0,True
+bridge_coupon_product.campaign_key -> dim_campaign,0,True
+fact_sales: ngày có giao dịch nhưng week_no NULL,0,True

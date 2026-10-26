@@ -1,0 +1,25 @@
+,Hạng TB,Quyết định,Lý do
+monetary,4.7,Giữ,
+weekly_spend,5.0,Loại,"tương quan |ρ|>0,9 với monetary, hạng kém hơn"
+n_camp,7.0,Giữ,
+n_TypeB,7.3,Giữ,
+age_ord,7.7,Giữ,
+n_commodity,8.0,Giữ,
+income_ord,10.0,Giữ,
+items_per_basket,11.0,Giữ,
+homeowner,11.0,Giữ,
+household_size_ord,11.0,Giữ,
+has_demo,11.3,Loại,"tương quan |ρ|>0,9 với kid_category_ord, hạng kém hơn"
+kid_category_ord,12.0,Loại,"tương quan |ρ|>0,9 với household_size_ord, hạng kém hơn"
+avg_basket_value,12.0,Loại,"tương quan |ρ|>0,9 với items_per_basket, hạng kém hơn"
+baskets_per_week,13.0,Giữ,
+n_TypeA,14.0,Giữ,
+married,15.0,Giữ,
+frequency,15.3,Loại,"tương quan |ρ|>0,9 với baskets_per_week, hạng kém hơn"
+retail_disc_share,15.3,Giữ,yếu theo MI/Chi2 nhưng RF xếp top 10 -> giữ
+n_TypeC,16.7,Giữ,
+private_share,17.0,Giữ,yếu theo MI/Chi2 nhưng RF xếp top 10 -> giữ
+n_dept,17.7,Giữ,
+recency,19.0,Loại,"MI < 0,015, Chi2 p > 0,05 và ngoài top 10 RF"
+tenure_weeks,19.3,Loại,"MI < 0,015, Chi2 p > 0,05 và ngoài top 10 RF"
+n_stores,19.7,Loại,"MI < 0,015, Chi2 p > 0,05 và ngoài top 10 RF"

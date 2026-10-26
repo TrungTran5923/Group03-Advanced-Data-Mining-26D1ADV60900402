@@ -1,0 +1,10 @@
+digraph F { graph [rankdir=TB, nodesep=0.35, ranksep=0.55, fontname="DejaVu Sans", bgcolor=white];
+node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=12, color="#2a78d6", fillcolor="#eaf2fc", width=1.5];
+edge [color="#52514e"];
+A [label="Hiểu nghiệp vụ\nmục tiêu, câu hỏi"]; B [label="Hiểu dữ liệu\nEDA (Bước 1)"]; C [label="Chuẩn bị dữ liệu\ntiền xử lý (Bước 1)"];
+D [label="Kho dữ liệu\nOLAP (Bước 2)"]; E [label="Luật kết hợp\nApriori, Multilevel\n(Bước 3)", fillcolor="#fdeee7", color="#eb6834"];
+F [label="6 thuộc tính mới\ntừ luật"]; G [label="Phân lớp\nD1, D2, D3 × LR, DT, RF\n(Bước 4)", fillcolor="#fdeee7", color="#eb6834"];
+H [label="Đánh giá\nF1, ROC-AUC"]; I [label="Hàm ý quản trị"];
+A -> B -> C -> E -> F; C -> D; F -> G; D -> I; I -> H [dir=back]; H -> G [dir=back];
+{rank=same; A; B; C; E; F} {rank=same; D; I; H; G}
+}
